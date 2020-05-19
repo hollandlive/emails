@@ -5,8 +5,20 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- Bootstrap CSS
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
+
+    <style type="text/css">
+      @import url('https://fonts.googleapis.com/css2?family=Catamaran&display=swap');
+      * {
+        margin: 0;
+        border: 0;
+        padding: 0;
+      }
+      body {
+        font-family: 'Catamaran', sans-serif;
+      }
+    </style>  
 
     <title>Email</title>
   </head>
@@ -52,8 +64,8 @@
 
       Met vriendelijke groet,
       Ekris Arnhem</p>
-      <button type="button" class="CTA">Subscribe</button>
-
+      <div class="btnHolder">
+        <button type="button" class="CTA">Subscribe</button>
       <ul class="links">
         <h2>Headline Links</h2>
         <li class="linkText">Link 1</li>
@@ -66,20 +78,22 @@
 
         <div id="medianImage">
           <img src="https://github.com/hollandlive/emails/blob/master/bmw_image_median.jpg?raw=true">
-        </div>  
-        <button type="button" class="CTA">CTA</button>
+        </div> 
+        <div class="btnHolder">
+          <button type="button" class="CTA">CTA</button>
+        </div>
       </main>
   </body>
   <footer>
-    <div class="footerTop">
+    <div class="footerTop" style="background-color: grey">
       <div class="callout">
           <ul class="links">
             <h2>Headline Links</h2>
-              <li class="social facebook"><a href="https://www.facebook.com/greeceiseasy/posts/153548516134946"><img src=""></a></li>
-              <li class="social twitter"><a href="https://www.facebook.com/greeceiseasy/posts/153548516134946"><img src=""></a></li>
-              <li class="social linkedin"><a href="https://www.facebook.com/greeceiseasy/posts/153548516134946"><img src=""></a></li>
-              <li class="social whatsapp"><a href="https://www.facebook.com/greeceiseasy/posts/153548516134946"><img src=""></a></li>
-              <li class="social insta"><a href="https://www.facebook.com/greeceiseasy/posts/153548516134946"><img src=""></a></li>
+              <li class="social facebook"><a href="https://www.facebook.com/greeceiseasy/posts/153548516134946"><img src="https://github.com/hollandlive/emails/blob/master/social_icons/facebook_white.png?raw=true"></a></li>
+              <li class="social twitter"><a href="https://twitter.com/GreeceFast"><img src="https://github.com/hollandlive/emails/blob/master/social_icons/twitter_white.png?raw=true"></a></li>
+              <li class="social linkedin"><a href="#"><img src="https://github.com/hollandlive/emails/blob/master/social_icons/twitter_white.png?raw=true"></a></li>
+              <li class="social whatsapp"><a href=""><img src="https://github.com/hollandlive/emails/blob/master/social_icons/facebook_white.png?raw=true"></a></li>
+              <li class="social insta"><a href="#"><img src="https://github.com/hollandlive/emails/blob/master/social_icons/facebook_white.png?raw=true"></a></li>
           </ul> 
       </div>
       <hr style="height:2px;border-width:0;color:gray;background-color:gray">
