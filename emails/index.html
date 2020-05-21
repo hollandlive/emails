@@ -29,7 +29,7 @@
         background: #fffaff;
       }
       img {
-        min-width: 100%;
+        
       }
       #headLine {
         text-align: center;
@@ -53,15 +53,48 @@
         z-index: 3;
       }
       footer {
-        width: 98%;
       }
       #emailBody {
         padding: 100px;
+        padding-bottom: 50px;
+      }
+
+      li {
+        list-style-type: none;
       }
       #linksHeadline {
         text-align: center;
         color: #3399ff;
       }
+      .links {
+        margin-left: 100px;
+      }
+
+     /* img.middle {
+        vertical-align: middle;
+      } 
+
+      .links a {
+        vertical-align: middle;
+        position: relative;
+        bottom: 20px;
+      } */
+      .callout ul {
+        text-align: center;
+      }
+      img.icon {
+        width: 50px;
+        height: 50px;
+        vertical-align: middle;
+        padding: 12px;
+
+      }
+      .footerLinks {
+        display: inline;
+        padding-left: 0;
+      }
+
+
     </style>  
 
     <title>Email</title>
@@ -109,15 +142,16 @@
 
       Met vriendelijke groet,
       Ekris Arnhem</p>
-      <ul class="links"><br>
-        <h1 id="linksHeadline">Headline Links</h1><br>
-        <li class="linkText">Link 1</li>
-        <li class="linkText">Link 2</li>
-        <li class="linkText">Link 3</li>
-        <li class="linkText">Link</li>
-        <li class="linkText">Link</li>
-      </ul>	
       </div>  
+      <h1 id="linksHeadline">Headline Links</h1><br>
+      <ul class="links"><br>
+        <li><a href="#"><img src="https://github.com/hollandlive/emails/blob/master/social_icons/icon1.png?raw=true" class="icon middle">Link 1</a></li>
+        <li><a href="#"><img src="https://github.com/hollandlive/emails/blob/master/social_icons/icon2.png?raw=true" class="icon middle">Link 2</a></li>
+        <li><a href="#"><img src="https://github.com/hollandlive/emails/blob/master/social_icons/icon1.png?raw=true" class="icon middle">Link 1</a></li>
+        <li><a href="#"><img src="https://github.com/hollandlive/emails/blob/master/social_icons/icon2.png?raw=true" class="icon middle">Link 2</a></li>
+        <li><a href="#"><img src="https://github.com/hollandlive/emails/blob/master/social_icons/icon1.png?raw=true" class="icon middle">Link 1</a></li>
+      </ul>	
+      
 
         <div id="medianImage">
           <img src="https://github.com/hollandlive/emails/blob/master/bmw_image_median.jpg?raw=true">
@@ -130,13 +164,12 @@
   <footer>
     <div class="footerTop" style="background-color: grey">
       <div class="callout">
-          <ul class="links">
-            <h2>Headline Links</h2>
-              <li class="social facebook"><a href="https://www.facebook.com/greeceiseasy/posts/153548516134946"><img src="https://github.com/hollandlive/emails/blob/master/social_icons/facebook_white.png?raw=true"></a></li>
-              <li class="social twitter"><a href="https://twitter.com/GreeceFast"><img src="https://github.com/hollandlive/emails/blob/master/social_icons/twitter_white.png?raw=true"></a></li>
-              <li class="social linkedin"><a href="#"><img src="https://github.com/hollandlive/emails/blob/master/social_icons/twitter_white.png?raw=true"></a></li>
-              <li class="social whatsapp"><a href=""><img src="https://github.com/hollandlive/emails/blob/master/social_icons/facebook_white.png?raw=true"></a></li>
-              <li class="social insta"><a href="#"><img src="https://github.com/hollandlive/emails/blob/master/social_icons/facebook_white.png?raw=true"></a></li>
+          <ul class="">
+              <li class="footerLinks"><a href="https://www.facebook.com/greeceiseasy/posts/153548516134946"><img src="https://github.com/hollandlive/emails/blob/master/social_icons/facebook_white.png?raw=true" class="icon"></a></li>
+              <li class="footerLinks"><a href="https://twitter.com/GreeceFast"><img src="https://github.com/hollandlive/emails/blob/master/social_icons/twitter_white.png?raw=true" class="icon"></a></li>
+              <li class="footerLinks"><a href="#"><img src="https://github.com/hollandlive/emails/blob/master/social_icons/twitter_white.png?raw=true" class="icon"></a></li>
+              <li class="footerLinks"><a href=""><img src="https://github.com/hollandlive/emails/blob/master/social_icons/facebook_white.png?raw=true" class="icon"></a></li>
+              <li class="footerLinks"><a href="#"><img src="https://github.com/hollandlive/emails/blob/master/social_icons/facebook_white.png?raw=true" class="icon"></a></li>
           </ul> 
       </div>
       <hr style="height:2px;border-width:0;color:gray;background-color:gray">
