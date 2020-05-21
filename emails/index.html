@@ -10,6 +10,7 @@
 
     <style type="text/css">
       @import url('https://fonts.googleapis.com/css2?family=Catamaran&display=swap');
+      @import url('https://fonts.googleapis.com/css2?family=Proza+Libre:ital,wght@1,600&display=swap');
       * {
         margin: 0;
         border: 0;
@@ -25,13 +26,41 @@
         color: #565859;
       }
       #wrapper {
-        background: #f6faff;
+        background: #fffaff;
       }
       img {
         min-width: 100%;
       }
+      #headLine {
+        text-align: center;
+        color: white;
+        text-shadow: 4px 4px #a9a9a9;
+        font-family: 'Proza Libre', sans-serif;
+        font-size: 26px;
+        padding-top: 30px;  
+      }
+      #headerImage {
+        z-index: 1;
+        position: relative;
+
+      }
+      #logo {
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        right: 0;
+        bottom: 0;
+        z-index: 3;
+      }
       footer {
         width: 98%;
+      }
+      #emailBody {
+        padding: 100px;
+      }
+      #linksHeadline {
+        text-align: center;
+        color: #3399ff;
       }
     </style>  
 
@@ -40,17 +69,18 @@
   <body>
   	<div id="wrapper">
   		<header>
+        <div id="headLine">
+          <h1>MEER DAN EEN AUTO</h1>
+        </div>
   			<div id="headerImage">
   				<img src="https://github.com/hollandlive/emails/blob/master/bmw_hybrid_email_top.jpg?raw=true">
-  			</div>	
-  			<div id="logo">
+        <div id="logo">
           <img src="https://github.com/hollandlive/emails/blob/master/bmw_logo.jpg?raw=true">
-  			</div>	
+        </div>  
   		</header>
       <main>
       <div id="emailBody">
-      <h1>Email Body Headline</h1>
-      <p class="mainText">Geachte heer Van Test,
+      <p class="mainText">Geachte heer Van Test,<br><br>
 
       Met veel plezier hebben wij u 
       een nieuwe BMW mogen offreren. 
@@ -79,10 +109,8 @@
 
       Met vriendelijke groet,
       Ekris Arnhem</p>
-      <div class="btnHolder">
-        <button type="button" class="CTA">Subscribe</button>
-      <ul class="links">
-        <h2>Headline Links</h2>
+      <ul class="links"><br>
+        <h1 id="linksHeadline">Headline Links</h1><br>
         <li class="linkText">Link 1</li>
         <li class="linkText">Link 2</li>
         <li class="linkText">Link 3</li>
